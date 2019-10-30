@@ -1,0 +1,17 @@
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.exe
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\Amqp.Net.dll
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\Common.dll
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\obj\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.csprojAssemblyReference.cache
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\obj\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.AssemblyInfoInputs.cache
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\obj\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.AssemblyInfo.cs
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\obj\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.csproj.CopyComplete
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\Amqp.Serialization.dll
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.deps.json
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.runtimeconfig.json
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.runtimeconfig.dev.json
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.dll
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.pdb
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\obj\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.dll
+C:\Projects\ActiveMQ\ActiveMQ.Host.Consumer\obj\Debug\netcoreapp3.0\ActiveMQ.Host.Consumer.pdb

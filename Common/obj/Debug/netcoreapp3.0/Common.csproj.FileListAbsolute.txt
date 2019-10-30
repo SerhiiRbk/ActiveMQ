@@ -1,0 +1,8 @@
+C:\Projects\ActiveMQ\Common\bin\Debug\netcoreapp3.0\Common.deps.json
+C:\Projects\ActiveMQ\Common\bin\Debug\netcoreapp3.0\Common.dll
+C:\Projects\ActiveMQ\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfoInputs.cache
+C:\Projects\ActiveMQ\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
+C:\Projects\ActiveMQ\Common\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Projects\ActiveMQ\Common\obj\Debug\netcoreapp3.0\Common.dll
+C:\Projects\ActiveMQ\Common\obj\Debug\netcoreapp3.0\Common.pdb
+C:\Projects\ActiveMQ\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache
