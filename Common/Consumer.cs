@@ -24,9 +24,9 @@ namespace Common
         private ReceiverLink _receiever;
       
 
-        public Consumer(MessageCallback callback) : base()
+        public Consumer(MessageCallback callback, string address = DESTINATION) : base()
         {
-            _receiever = new ReceiverLink(_session, "receiver ", DESTINATION);
+            _receiever = new ReceiverLink(_session, "receiver ", address);
             _callback = callback;
             if (_callback == null)
             {
@@ -62,7 +62,7 @@ namespace Common
         {
             try
             {
-                _receiever.Start(1, _callback);
+                _receiever.Start(100, _callback);
             }
             catch (Exception e)
             {

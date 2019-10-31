@@ -16,10 +16,11 @@ namespace Common
         public SenderLink _producer;
         private static int messagesSent;
         private static int totalSent;
+        private int cntr = 0;
 
-        public Producer() : base()
+        public Producer(string address = DESTINATION) : base()
         {
-            _producer = new SenderLink(_session, "sender", DESTINATION);
+            _producer = new SenderLink(_session, "sender", address);
         }
 
         OutcomeCallback MessageSentHandler = (l, msg, o, s) => {
@@ -38,10 +39,21 @@ namespace Common
                 settings.DateParseHandling = DateParseHandling.None;
                 Message newMessage = new Message(JsonConvert.SerializeObject(body, settings));
                 newMessage.Header = new Header();
+                newMessage.Properties = new Properties();
                 newMessage.Header.Durable = true;
-                
-                
+                newMessage.Properties.MessageId = Guid.NewGuid().ToString();
+                newMessage.Properties.CorrelationId = newMessage.Properties.MessageId;
+                newMessage.Properties.GroupId = "group1";
+                if (cntr%2 == 0)
+                {
+                    //newMessage.Properties.GroupId = "group1";
+                }
+                else
+                {
+                    //newMessage.Properties.GroupId = "group2";
+                }
                 await _producer.SendAsync(newMessage);
+                cntr = cntr+1;
             }
             catch (Exception ex)
             {
